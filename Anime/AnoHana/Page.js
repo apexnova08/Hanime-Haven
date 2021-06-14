@@ -84,7 +84,7 @@ function ep9()
 
 function ep10()
 {
-    vsrc.setAttribute('src', '../__/Episodes/01.mp4');
+    vsrc.setAttribute('src', '../z_/Episodes/01.mp4');
     vid.load();
 }
 
