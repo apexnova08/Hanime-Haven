@@ -1,0 +1,265 @@
+body, html
+{
+    min-width: 900px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: rgb(0, 170, 250);
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(0, 240, 230);
+    transition: .5s;
+}
+
+.topnav
+{
+    background-color: rgb(25, 25, 25, .8);
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    height: 53px;
+    width: 100%
+}
+
+.logo
+{
+    text-decoration: none;
+    position: absolute;
+    padding: 12px 12px;
+    font-size: 25px;
+}
+
+.navbar
+{
+    padding: 0;
+    margin: 0 0 0 100px;
+    list-style: none;
+}
+
+.navbar a
+{
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 20px;
+    display: block;
+}
+  
+.navbar a:hover
+{
+    background-color: rgb(0, 240, 230);
+    color: rgb(25, 25, 25);
+    transition: .5s;
+}
+
+.navbar a.active
+{
+    border-bottom: 3px solid rgb(0, 170, 250);
+}
+
+.headbg
+{
+    background-image: url("bg.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin: 0;
+}
+
+.border
+{
+    min-width: 900px;
+    max-width: 100%;
+    background-color: rgb(25, 25, 25);
+    font-size: 50px;
+    text-align: center;
+    z-index: 2;
+}
+
+.main
+{
+    position: relative;
+    background-color: rgb(25, 25, 25, .8);
+    margin: 0;
+    margin-bottom: 0%;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0 40px 0;
+}
+
+#input
+{
+    width: 756px;
+    height: 20px;
+    margin: 0 60px;
+    padding: 10px;
+    background-color: rgb(25, 25, 25, .8);
+    border: 2px solid rgb(25, 25, 25);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.lib
+{
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    margin: 20px 50px;
+}
+
+.anime
+{
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 380px;
+    margin: 10px;
+}
+
+.ovr
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    width: 100%;
+    padding: 0%;
+    transition: .5s ease;
+    background-color: rgb(25, 25, 25, .8);
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.anime:hover .ovr
+{
+    height: 98.8%;
+}
+
+.ttl
+{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px 10px 0 10px;
+}
+
+.smry
+{
+    margin: 10px 10px 0 10px;
+}
+
+.footer
+{
+    background-color:  rgb(25, 25, 25);
+    margin-top: 0px;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+}
+
+.flogo
+{
+    text-decoration: none;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.flogo b
+{
+    font-size: 40px;
+}
+
+.flogo p
+{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.fcontact
+{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.fcontact img
+{
+    float: right;
+    padding: 10px 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.fcontact img:hover
+{
+    background-color: rgb(0, 240, 230);
+    transition: .5s;
+}
+
+.finfo
+{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin-right: 50px;
+    margin-top: 140px;
+}
+
+.finfo li
+{
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+
+.finfo a
+{
+    padding: 15px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.finfo a:hover
+{
+    color: rgb(0, 240, 230);
+    transition: .5s;
+}

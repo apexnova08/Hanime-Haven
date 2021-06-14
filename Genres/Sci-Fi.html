@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../-CSS/Library.css">
+        <title>Sci-Fi - Hanime Haven</title>
+        <link rel="icon" type="img/png" href="../Logos/hh.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="logo" href="../Home.html">
+                <b style="color:rgb(0, 240, 230)">H</b>
+                <b style="color:rgb(255, 255, 255)">●</b>
+                <b style="color:rgb(0, 170, 250)">H</b>
+            </a>
+            <ul class="navbar">
+                <li><a href="../Home.html">Home</a></li>
+                <li><a class="active" href="../Library.html">Library</a></li>
+                <li><a href="../Genres.html">Genres</a></li>
+            </ul>
+        </div>
+
+        <div class="headbg"></div>
+
+        <div class="border">
+            <b style="color:rgb(0, 240, 230)">●</b>
+            <b style="color:rgb(255, 255, 255); font-size: 40px;">LIBRARY</b>
+            <b style="color:rgb(0, 170, 250)">●</b>
+        </div>
+
+        <!--|||||-->
+        
+        <script src="../min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#input").on("keyup", function()
+                {
+                    var value = $(this).val().toLowerCase();
+                    $("#lib a").filter(function()
+                    {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+        <div class="main">
+
+            <input type="text" id="input" placeholder="Search for keywords..">
+
+            <div class="lib" id="lib">
+                <a href="../Anime/DarlingInTheFranXX/Page.html" class="anime">
+                    <img src="../Anime/DarlingInTheFranXX/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Darling In The FranXX</div>
+                        <p class="smry">The story is set in the distant future. The land is ruined, and humanity establishes the mobile fort city Plantation. Pilots produced inside Plantation live in Mistilteinn, also know as the "birdcage." Children live there knowing nothing of the outside world or the freedom of the sky. Their lives consist of battling to carry out missions. Their enemies are mysterious giant lifeforms known as Kyouryuu, and the children pilot robots called Franxx to face off against them. For the children, riding the Franxx proves their existence.</p>
+                    </div>
+                </a>
+                <a href="../Anime/Kiznaiver/Page.html" class="anime">
+                    <img src="../Anime/Kiznaiver/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Kiznaiver</div>
+                        <p class="smry">Katsuhira Agata is a quiet and reserved teenage boy whose sense of pain has all but vanished. His friend, Chidori Takashiro, can only faintly remember the days before Katsuhira had undergone this profound change. Now, his muffled and complacent demeanor make Katsuhira a constant target for bullies, who exploit him for egregious sums of money. But their fists only just manage to make him blink, as even emotions are far from his grasp.</p>
+                    </div>
+                </a>
+                <a href="../Anime/PlasticMemories/Page.html" class="anime">
+                    <img src="../Anime/PlasticMemories/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Plastic Memories</div>
+                        <p class="smry">Eighteen-year-old Tsukasa Mizugaki has failed his college entrance exams, but after pulling some strings, he manages to land a job at the Sion Artificial Intelligence Corporation. SAI Corp is responsible for the creation of "Giftias"—highly advanced androids which are almost indiscernible from normal humans. However, unlike humans, Giftias have a maximum lifespan of 81,920 hours, or around nine years and four months. Terminal Service One, the station Tsukasa was assigned to, is responsible for collecting Giftias that have met their expiration date, before they lose their memories and become hostile.</p>
+                    </div>
+                </a>
+                <a href="../Anime/ThePromisedNeverland/Page.html" class="anime">
+                    <img src="../Anime/ThePromisedNeverland/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">The Promised Neverland</div>
+                        <p class="smry">Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their "Mama," Isabella. Although they are required to take tests daily, the children are free to spend their time as they see fit, usually playing outside, as long as they do not venture too far from the orphanage—a rule they are expected to follow no matter what. However, all good times must come to an end, as every few months, a child is adopted and sent to live with their new family... never to be heard from again.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!--|||||-->
+
+        <div class="footer">
+            <div class="flogo">
+                <b style="color:rgb(0, 240, 230)">HANIME</b>
+                <b style="color:rgb(0, 170, 250)">HAVEN</b>
+                <br/>
+                <p style="color:rgb(255, 255, 255)">AN ANIME STREAMING SITE</p>
+                <p style="color:rgb(255, 255, 255); font-size: 15px;">©HHStudio2019</p>
+            </div>
+                
+            <ul class="fcontact">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../__/Logos/fb.png"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="../__/Logos/twitter.png"></a></li>
+                <li><a href="https://www.discordapp.com" target="_blank"><img src="../__/Logos/disc.png"></a></li>
+            </ul>
+    
+            <ul class="finfo">
+                <li><a href="../About.html">About Us</a></li>
+                <li>|</li>
+                <li><a href="https://www.patreon.com/" target="_blank">Support Us</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

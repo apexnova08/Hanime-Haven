@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../-CSS/Library.css">
+        <title>Adventure - Hanime Haven</title>
+        <link rel="icon" type="img/png" href="../Logos/hh.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="logo" href="../Home.html">
+                <b style="color:rgb(0, 240, 230)">H</b>
+                <b style="color:rgb(255, 255, 255)">●</b>
+                <b style="color:rgb(0, 170, 250)">H</b>
+            </a>
+            <ul class="navbar">
+                <li><a href="../Home.html">Home</a></li>
+                <li><a class="active" href="../Library.html">Library</a></li>
+                <li><a href="../Genres.html">Genres</a></li>
+            </ul>
+        </div>
+
+        <div class="headbg"></div>
+
+        <div class="border">
+            <b style="color:rgb(0, 240, 230)">●</b>
+            <b style="color:rgb(255, 255, 255); font-size: 40px;">LIBRARY</b>
+            <b style="color:rgb(0, 170, 250)">●</b>
+        </div>
+
+        <!--|||||-->
+        
+        <script src="../min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#input").on("keyup", function()
+                {
+                    var value = $(this).val().toLowerCase();
+                    $("#lib a").filter(function()
+                    {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+        <div class="main">
+
+            <input type="text" id="input" placeholder="Search for keywords..">
+
+            <div class="lib" id="lib">
+                <a href="../Anime/AkameGaKill/page.html" class="anime">
+                    <img src="../Anime/AkameGaKill/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Akame ga Kill!</div>
+                        <p class="smry">Night Raid is the covert assassination branch of the Revolutionary Army, an uprising assembled to overthrow Prime Minister Honest, whose avarice and greed for power has lead him to take advantage of the child emperor's inexperience. Without a strong and benevolent leader, the rest of the nation is left to drown in poverty, strife, and ruin. Though the Night Raid members are all experienced killers, they understand that taking lives is far from commendable and that they will likely face retribution as they mercilessly eliminate anyone who stands in the revolution's way.</p>
+                    </div>
+                </a>
+                <a href="../Anime/APlaceFurtherThanTheUniverse/Page.html" class="anime">
+                    <img src="../Anime/APlaceFurtherThanTheUniverse/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">A Place Further than the Universe</div>
+                        <p class="smry">Filled with an overwhelming sense of wonder for the world around her, Mari Tamaki has always dreamt of what lies beyond the reaches of the universe. However, despite harboring such large aspirations on the inside, her fear of the unknown and anxiety over her own possible limitations have always held her back from chasing them. But now, in her second year of high school, Mari is more determined than ever to not let any more of her youth go to waste. Still, her fear continues to prevent her from taking that ambitious step forward—that is, until she has a chance encounter with a girl who has grand dreams of her own.</p>
+                    </div>
+                </a>
+                <a href="../Anime/DeathMarchToTheParallelWorldRhapsody/Page.html" class="anime">
+                    <img src="../Anime/DeathMarchToTheParallelWorldRhapsody/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Death March To The Parallel World Rhapsody</div>
+                        <p class="smry">29-year-old programmer Suzuki Ichirou finds himself transported into a fantasy RPG. Within the game, he's a 15-year-old named Satou. At first he thinks he's dreaming, but his experiences seem very real. Due to a powerful ability he possesses with limited use, he ends up wiping out an army of lizard men and becomes a high leveled adventurer. Satou decides to hide his level, and plans to live peacefully and meet new people. However, developments in the game's story, such as the return of a demon king, may cause a nuisance to Satou's plans.</p>
+                    </div>
+                </a>
+                <a href="../Anime/GATE/Page.html" class="anime">
+                    <img src="../Anime/GATE/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">GATE</div>
+                        <p class="smry">Off-duty Japan Self-Defense Forces (JSDF) officer and otaku, Youji Itami, is on his way to attend a doujin convention in Ginza, Tokyo when a mysterious portal in the shape of a large gate suddenly appears. From this gate, supernatural creatures and warriors clad in medieval armor emerge, charging through the city, killing and destroying everything in their path. With swift actions, Youji saves as many lives as he can while the rest of the JSDF direct their efforts towards stopping the invasion.</p>
+                    </div>
+                </a>
+                <a href="../Anime/GoblinSlayer/Page.html" class="anime">
+                    <img src="../Anime/GoblinSlayer/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Goblin Slayer</div>
+                        <p class="smry">A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress. It's the Goblin Slayer who comes to their rescue—a man who's dedicated his life to the extermination of all goblins, by any means necessary. And when rumors of his feats begin to circulate, there's no telling who might come calling next...</p>
+                    </div>
+                </a>
+                <a href="../Anime/NoGameNoLife/Page.html" class="anime">
+                    <img src="../Anime/NoGameNoLife/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">No Game No Life</div>
+                        <p class="smry">No Game No Life is a surreal comedy that follows Sora and Shiro, shut-in NEET siblings and the online gamer duo behind the legendary username "Kuuhaku." They view the real world as just another lousy game; however, a strange e-mail challenging them to a chess match changes everything—the brother and sister are plunged into an otherworldly realm where they meet Tet, the God of Games.</p>
+                    </div>
+                </a>
+                <a href="../Anime/NoGameNoLifeMovieZero/Page.html" class="anime">
+                    <img src="../Anime/NoGameNoLifeMovieZero/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">No Game No Life Movie: Zero</div>
+                        <p class="smry">Six thousand years before Sora and Shiro were even a blink in the history of Disboard, war consumed the land, tearing apart the heavens, destroying stars, and even threatening to wipe out the human race. Amid the chaos and destruction, a young man named Riku leads humanity toward the tomorrow his heart believed in. One day, in the ruins of an Elf city, he meets Shuvi, a female exiled "Ex-machina" android who asks him to teach her what it means to have a human heart.</p>
+                    </div>
+                </a>
+                <a href="../Anime/Noragami/Page.html" class="anime">
+                    <img src="../Anime/Noragami/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Noragami</div>
+                        <p class="smry">Yato is a minor deity and a self-proclaimed "Delivery God," who dreams of having millions of worshippers. Without a single shrine dedicated to his name, however, his goals are far from being realized. He spends his days doing odd jobs for five yen apiece, until his weapon partner becomes fed up with her useless master and deserts him.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online</div>
+                        <p class="smry">Kazuto Kirigaya, nicknamed "Kirito," is among the lucky few enthusiasts who get their hands on the first shipment of the game. He logs in to find himself, with ten-thousand others, in the scenic and elaborate world of Aincrad, one full of fantastic medieval weapons and gruesome monsters. However, in a cruel turn of events, the players soon realize they cannot log out; the game's creator has trapped them in his new world until they complete all one hundred levels of the game.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline2/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online II</div>
+                        <p class="smry">Kirito wanders in an unfamiliar world in order to gain any clues about the "Death Gun." Then, a female sniper named Sinon who owns a gigantic "Hecate II" rifle extends Kirito a helping hand. With Sinon's help, Kirito decides to enter the "Bullet of Bullets," a large tournament to choose the most powerful gunner within the realm of GGO, in hopes to become the target of the "Death Gun" and make direct contact with the mysterious avatar.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline3/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline3/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online III</div>
+                        <p class="smry">"Where...am I...?" Before he knows it, Kirito has made a full-dive into an epic, fantasy-like virtual world. With only a murky recollection of what happened right before he logged in, he starts to wander around, searching for clues.</p>
+                        <p class="smry">He comes upon an enormous, pitch dark tree (the Gigas Cedar), where he encounters a boy. "My name is Eugeo. Nice to meet you, Kirito." Although he is supposedly a resident of the virtual world – an NPC – the boy shows the same array of emotions as any human being.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnlineMovie/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnlineMovie/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online Movie: Ordinal Scale</div>
+                        <p class="smry">In 2026, four years after the infamous Sword Art Online incident, a revolutionary new form of technology has emerged: the Augma, a device that utilizes an Augmented Reality system. Unlike the Virtual Reality of the NerveGear and the Amusphere, it is perfectly safe and allows players to use it while they are conscious, creating an instant hit on the market. The most popular application for the Augma is the game Ordinal Scale, which immerses players in a fantasy role-playing game with player rankings and rewards.</p>
+                    </div>
+                </a>
+                <a href="../Anime/TheRisingOfTheShieldHero/Page.html" class="anime">
+                    <img src="../Anime/TheRisingOfTheShieldHero/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">The Rising Of The Shield Hero</div>
+                        <p class="smry">Stories of old tell of four otherworldly heroes—wielding the sword, spear, bow, and shield—who defended the land from wave after wave of calamity. With the fate of the world in balance, the kingdom of Melromarc summons these legendary figures; in modern-day Japan, the call is answered, and the unwitting heroes are transported to this fantasy universe.</p>
+                        <p class="smry">Thrust into Melromarc and given the title of "Shield Hero," otaku Naofumi Iwatani is labeled the weakest due to his lack of offensive capability and apparent inexperience. When the heroes part ways to start their journeys, he only has one willing companion: the beautiful princess Malty Melromarc. However, she soon betrays him, steals all his money, and accuses him of taking advantage of her.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!--|||||-->
+
+        <div class="footer">
+            <div class="flogo">
+                <b style="color:rgb(0, 240, 230)">HANIME</b>
+                <b style="color:rgb(0, 170, 250)">HAVEN</b>
+                <br/>
+                <p style="color:rgb(255, 255, 255)">AN ANIME STREAMING SITE</p>
+                <p style="color:rgb(255, 255, 255); font-size: 15px;">©HHStudio2019</p>
+            </div>
+                
+            <ul class="fcontact">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../__/Logos/fb.png"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="../__/Logos/twitter.png"></a></li>
+                <li><a href="https://www.discordapp.com" target="_blank"><img src="../__/Logos/disc.png"></a></li>
+            </ul>
+    
+            <ul class="finfo">
+                <li><a href="../About.html">About Us</a></li>
+                <li>|</li>
+                <li><a href="https://www.patreon.com/" target="_blank">Support Us</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

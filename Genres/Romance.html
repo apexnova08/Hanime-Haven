@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../-CSS/Library.css">
+        <title>Romance - Hanime Haven</title>
+        <link rel="icon" type="img/png" href="../Logos/hh.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="logo" href="../Home.html">
+                <b style="color:rgb(0, 240, 230)">H</b>
+                <b style="color:rgb(255, 255, 255)">●</b>
+                <b style="color:rgb(0, 170, 250)">H</b>
+            </a>
+            <ul class="navbar">
+                <li><a href="../Home.html">Home</a></li>
+                <li><a class="active" href="../Library.html">Library</a></li>
+                <li><a href="../Genres.html">Genres</a></li>
+            </ul>
+        </div>
+
+        <div class="headbg"></div>
+
+        <div class="border">
+            <b style="color:rgb(0, 240, 230)">●</b>
+            <b style="color:rgb(255, 255, 255); font-size: 40px;">LIBRARY</b>
+            <b style="color:rgb(0, 170, 250)">●</b>
+        </div>
+
+        <!--|||||-->
+        
+        <script src="../min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#input").on("keyup", function()
+                {
+                    var value = $(this).val().toLowerCase();
+                    $("#lib a").filter(function()
+                    {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+        <div class="main">
+
+            <input type="text" id="input" placeholder="Search for keywords..">
+
+            <div class="lib" id="lib">
+                <a href="../Anime/AncientMagusBride/Page.html" class="anime">
+                    <img src="../Anime/AncientMagusBride/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Ancient Magus' Bride</div>
+                        <p class="smry">Chise Hatori, a 15-year-old Japanese girl, was sold for five million pounds at an auction to a tall masked gentleman. Abandoned at a young age and ridiculed by her peers for her unconventional behavior, she was ready to give herself to any buyer if it meant having a place to go home to. In chains and on her way to an unknown fate, she hears whispers from robed men along her path, gossiping and complaining that such a buyer got his hands on a rare "Sleigh Beggy."</p>
+                    </div>
+                </a>
+                <a href="../Anime/DarlingInTheFranXX/Page.html" class="anime">
+                    <img src="../Anime/DarlingInTheFranXX/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Darling In The FranXX</div>
+                        <p class="smry">The story is set in the distant future. The land is ruined, and humanity establishes the mobile fort city Plantation. Pilots produced inside Plantation live in Mistilteinn, also know as the "birdcage." Children live there knowing nothing of the outside world or the freedom of the sky. Their lives consist of battling to carry out missions. Their enemies are mysterious giant lifeforms known as Kyouryuu, and the children pilot robots called Franxx to face off against them. For the children, riding the Franxx proves their existence.</p>
+                    </div>
+                </a>
+                <a href="../Anime/DomesticGirlfriend/Page.html" class="anime">
+                    <img src="../Anime/DomesticGirlfriend/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Domestic Girlfriend</div>
+                        <p class="smry">Natsuo Fujii is in love with his teacher, Hina. Attempting to forget his feelings towards her, Natsuo goes to a mixer with his classmates where he meets an odd girl named Rui Tachibana. In a strange turn of events, Rui asks Natsuo to sneak out with her and do her a favor. To his surprise, their destination is Rui's house—and her request is for him to have sex with her. There's no love behind the act; she just wants to learn from the experience. Thinking that it might help him forget about Hina, Natsuo hesitantly agrees.</p>
+                    </div>
+                </a>
+                <a href="../Anime/Fireworks/Page.html" class="anime">
+                    <img src="../Anime/Fireworks/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Fireworks</div>
+                        <p class="smry">It's summer, and Norimichi Shimada and his friends want to know if fireworks look round or flat from the side. They forge a plan to find the answer at Moshimo Festival's fireworks display. However, Norimichi finds himself conflicted when his classmate, Nazuna Oikawa, plans to run away from home and wants Norimichi to join her. When things go awry in their attempt to escape, a strange orb in Nazuna's possession gives them another chance at staying together.</p>
+                    </div>
+                </a>
+                <a href="../Anime/LoveIsWar/Page.html" class="anime">
+                    <img src="../Anime/LoveIsWar/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Kaguya-sama: Love Is War</div>
+                        <p class="smry">At the renowned Shuchiin Academy, Miyuki Shirogane and Kaguya Shinomiya are the student body's top representatives. Ranked the top student in the nation and respected by peers and mentors alike, Miyuki serves as the student council president. Alongside him, the vice president Kaguya—eldest daughter of the wealthy Shinomiya family—excels in every field imaginable. They are the envy of the entire student body, regarded as the perfect couple.</p>
+                    </div>
+                </a>
+                <a href="../Anime/PlasticMemories/Page.html" class="anime">
+                    <img src="../Anime/PlasticMemories/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Plastic Memories</div>
+                        <p class="smry">Eighteen-year-old Tsukasa Mizugaki has failed his college entrance exams, but after pulling some strings, he manages to land a job at the Sion Artificial Intelligence Corporation. SAI Corp is responsible for the creation of "Giftias"—highly advanced androids which are almost indiscernible from normal humans. However, unlike humans, Giftias have a maximum lifespan of 81,920 hours, or around nine years and four months. Terminal Service One, the station Tsukasa was assigned to, is responsible for collecting Giftias that have met their expiration date, before they lose their memories and become hostile.</p>
+                    </div>
+                </a>
+                <a href="../Anime/QuntessentialQuintuplets/Page.html" class="anime">
+                    <img src="../Anime/QuntessentialQuintuplets/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Quntessential Quintuplets</div>
+                        <p class="smry">Five girls who want to do anything but study, and their tutor: a high school boy who's got book smarts and not much else. Fuutarou Uesugi took the tutoring gig because he was desperate for cash, but when his students—the five beautiful daughters of a wealthy businessman—find five times the excuses to slack off, what can he do?! At this rate, the sisters won’t graduate, so if he wants to get paid, Fuutarou must think of a plan to suit each of them… Which feels hopeless when five out of five of them think he's a loser!</p>
+                    </div>
+                </a>
+                <a href="../Anime/RascalDoesNotDreamOfBunnyGirlSenpai/Page.html" class="anime">
+                    <img src="../Anime/RascalDoesNotDreamOfBunnyGirlSenpai/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Rascal Does Not Dream Of Bunny Girl Senpai</div>
+                        <p class="smry">This year, Sakuta Azusagawa, a second-year student at a high school near Enoshima, meets several girls that are experiencing this "puberty syndrome." For instance, he meets a wild bunny girl in the library. She turns out to be an actress on hiatus, Mai Sakurajima, who is also his senior at the school. For some reason, no one else can see this enchanting girl. How did she become invisible...? As Sakuta searches for answers to help Mai, they spend more time together, and he eventually learns of her hidden feelings...</p>
+                    </div>
+                </a>
+                <a href="../Anime/ScumsWish/Page.html" class="anime">
+                    <img src="../Anime/ScumsWish/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Scum's Wish</div>
+                        <p class="smry">Hanabi has loved her childhood friend and neighbor Narumi Kanai for as long as she can remember, so she is elated to discover that he is her new homeroom teacher. However, Narumi is soon noticed by the music teacher, Akane Minagawa, and a relationship begins to blossom between them, much to Hanabi's dismay. </p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online</div>
+                        <p class="smry">Kazuto Kirigaya, nicknamed "Kirito," is among the lucky few enthusiasts who get their hands on the first shipment of the game. He logs in to find himself, with ten-thousand others, in the scenic and elaborate world of Aincrad, one full of fantastic medieval weapons and gruesome monsters. However, in a cruel turn of events, the players soon realize they cannot log out; the game's creator has trapped them in his new world until they complete all one hundred levels of the game.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline2/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online II</div>
+                        <p class="smry">Kirito wanders in an unfamiliar world in order to gain any clues about the "Death Gun." Then, a female sniper named Sinon who owns a gigantic "Hecate II" rifle extends Kirito a helping hand. With Sinon's help, Kirito decides to enter the "Bullet of Bullets," a large tournament to choose the most powerful gunner within the realm of GGO, in hopes to become the target of the "Death Gun" and make direct contact with the mysterious avatar.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnline3/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnline3/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online III</div>
+                        <p class="smry">"Where...am I...?" Before he knows it, Kirito has made a full-dive into an epic, fantasy-like virtual world. With only a murky recollection of what happened right before he logged in, he starts to wander around, searching for clues.</p>
+                        <p class="smry">He comes upon an enormous, pitch dark tree (the Gigas Cedar), where he encounters a boy. "My name is Eugeo. Nice to meet you, Kirito." Although he is supposedly a resident of the virtual world – an NPC – the boy shows the same array of emotions as any human being.</p>
+                    </div>
+                </a>
+                <a href="../Anime/SwordArtOnlineMovie/Page.html" class="anime">
+                    <img src="../Anime/SwordArtOnlineMovie/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online Movie: Ordinal Scale</div>
+                        <p class="smry">In 2026, four years after the infamous Sword Art Online incident, a revolutionary new form of technology has emerged: the Augma, a device that utilizes an Augmented Reality system. Unlike the Virtual Reality of the NerveGear and the Amusphere, it is perfectly safe and allows players to use it while they are conscious, creating an instant hit on the market. The most popular application for the Augma is the game Ordinal Scale, which immerses players in a fantasy role-playing game with player rankings and rewards.</p>
+                    </div>
+                </a>
+                <a href="../Anime/TwinStarExorcists/Page.html" class="anime">
+                    <img src="../Anime/TwinStarExorcists/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Twin Star Exorcists</div>
+                        <p class="smry">Magano, a parallel realm filled with monsters known as "Kegare," is a place where exorcists deal with all impurities. Benio Adashino is a prodigy exorcist who is recognized for her strength and is summoned to Tokyo by the Exorcist Union. On her way, she plummets into the arms of Rokuro Enmadou, a young exorcist with a troubled past.</p>
+                    </div>
+                </a>
+                <a href="../Anime/YourLieInApril/Page.html" class="anime">
+                    <img src="../Anime/YourLieInApril/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Your Lie In April</div>
+                        <p class="smry">Two years later, Kousei still avoids the piano, leaving behind his admirers and rivals, and lives a colorless life alongside his friends Tsubaki Sawabe and Ryouta Watari. However, everything changes when he meets a beautiful violinist, Kaori Miyazono, who stirs up his world and sets him on a journey to face music again.</p>
+                    </div>
+                </a>
+                <a href="../Anime/YourName/Page.html" class="anime">
+                    <img src="../Anime/YourName/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Your Name</div>
+                        <p class="smry">One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!--|||||-->
+
+        <div class="footer">
+            <div class="flogo">
+                <b style="color:rgb(0, 240, 230)">HANIME</b>
+                <b style="color:rgb(0, 170, 250)">HAVEN</b>
+                <br/>
+                <p style="color:rgb(255, 255, 255)">AN ANIME STREAMING SITE</p>
+                <p style="color:rgb(255, 255, 255); font-size: 15px;">©HHStudio2019</p>
+            </div>
+                
+            <ul class="fcontact">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../__/Logos/fb.png"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="../__/Logos/twitter.png"></a></li>
+                <li><a href="https://www.discordapp.com" target="_blank"><img src="../__/Logos/disc.png"></a></li>
+            </ul>
+    
+            <ul class="finfo">
+                <li><a href="../About.html">About Us</a></li>
+                <li>|</li>
+                <li><a href="https://www.patreon.com/" target="_blank">Support Us</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

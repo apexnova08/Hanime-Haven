@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../-CSS/Library.css">
+        <title>Magic - Hanime Haven</title>
+        <link rel="icon" type="img/png" href="../Logos/hh.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="logo" href="../Home.html">
+                <b style="color:rgb(0, 240, 230)">H</b>
+                <b style="color:rgb(255, 255, 255)">●</b>
+                <b style="color:rgb(0, 170, 250)">H</b>
+            </a>
+            <ul class="navbar">
+                <li><a href="../Home.html">Home</a></li>
+                <li><a class="active" href="../Library.html">Library</a></li>
+                <li><a href="../Genres.html">Genres</a></li>
+            </ul>
+        </div>
+
+        <div class="headbg"></div>
+
+        <div class="border">
+            <b style="color:rgb(0, 240, 230)">●</b>
+            <b style="color:rgb(255, 255, 255); font-size: 40px;">LIBRARY</b>
+            <b style="color:rgb(0, 170, 250)">●</b>
+        </div>
+
+        <!--|||||-->
+        
+        <script src="../min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#input").on("keyup", function()
+                {
+                    var value = $(this).val().toLowerCase();
+                    $("#lib a").filter(function()
+                    {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+        <div class="main">
+
+            <input type="text" id="input" placeholder="Search for keywords..">
+
+            <div class="lib" id="lib">
+                <a href="../Anime/AmagiBrilliantPark/Page.html" class="anime">
+                    <img src="../Anime/AmagiBrilliantPark/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Amagi Brilliant Park</div>
+                        <p class="smry">Kanie Seiya, a smart and extremely narcissistic high school student, believes that the beautiful but reserved Sento Isuzu has invited him on a date at an amusement park called Amagi Brilliant Park. Much to his chagrin, not only is the location a run-down facility, the supposed date is merely a recruitment tour where Sento and Princess Latifa Fleuranza, the owner of the theme park, ask him to become the park's new manager. Their cause for desperation? As stipulated in a land-use contract, Amagi has less than three months to meet a quota of 500,000 guests, or the park will be closed for good and the land redeveloped by a greedy real-estate company.</p>
+                    </div>
+                </a>
+                <a href="../Anime/AncientMagusBride/Page.html" class="anime">
+                    <img src="../Anime/AncientMagusBride/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Ancient Magus' Bride</div>
+                        <p class="smry">Chise Hatori, a 15-year-old Japanese girl, was sold for five million pounds at an auction to a tall masked gentleman. Abandoned at a young age and ridiculed by her peers for her unconventional behavior, she was ready to give herself to any buyer if it meant having a place to go home to. In chains and on her way to an unknown fate, she hears whispers from robed men along her path, gossiping and complaining that such a buyer got his hands on a rare "Sleigh Beggy."</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!--|||||-->
+
+        <div class="footer">
+            <div class="flogo">
+                <b style="color:rgb(0, 240, 230)">HANIME</b>
+                <b style="color:rgb(0, 170, 250)">HAVEN</b>
+                <br/>
+                <p style="color:rgb(255, 255, 255)">AN ANIME STREAMING SITE</p>
+                <p style="color:rgb(255, 255, 255); font-size: 15px;">©HHStudio2019</p>
+            </div>
+                
+            <ul class="fcontact">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../__/Logos/fb.png"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="../__/Logos/twitter.png"></a></li>
+                <li><a href="https://www.discordapp.com" target="_blank"><img src="../__/Logos/disc.png"></a></li>
+            </ul>
+    
+            <ul class="finfo">
+                <li><a href="../About.html">About Us</a></li>
+                <li>|</li>
+                <li><a href="https://www.patreon.com/" target="_blank">Support Us</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

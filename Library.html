@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="-CSS/Library.css">
+        <title>Library - Hanime Haven</title>
+        <link rel="icon" type="img/png" href="Logos/hh.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="logo" href="Home.html">
+                <b style="color:rgb(0, 240, 230)">H</b>
+                <b style="color:rgb(255, 255, 255)">●</b>
+                <b style="color:rgb(0, 170, 250)">H</b>
+            </a>
+            <ul class="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a class="active" href="Library.html">Library</a></li>
+                <li><a href="Genres.html">Genres</a></li>
+            </ul>
+        </div>
+
+        <div class="headbg"></div>
+
+        <div class="border">
+            <b style="color:rgb(0, 240, 230)">●</b>
+            <b style="color:rgb(255, 255, 255); font-size: 40px;">LIBRARY</b>
+            <b style="color:rgb(0, 170, 250)">●</b>
+        </div>
+
+        <!--|||||-->
+        
+        <script src="min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("#input").on("keyup", function()
+                {
+                    var value = $(this).val().toLowerCase();
+                    $("#lib a").filter(function()
+                    {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+        <div class="main">
+
+            <input type="text" id="input" placeholder="Search for keywords..">
+
+            <div class="lib" id="lib">
+                <a href="Anime/AkameGaKill/page.html" class="anime">
+                    <img src="Anime/AkameGaKill/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Akame ga Kill!</div>
+                        <p class="smry">Night Raid is the covert assassination branch of the Revolutionary Army, an uprising assembled to overthrow Prime Minister Honest, whose avarice and greed for power has lead him to take advantage of the child emperor's inexperience. Without a strong and benevolent leader, the rest of the nation is left to drown in poverty, strife, and ruin. Though the Night Raid members are all experienced killers, they understand that taking lives is far from commendable and that they will likely face retribution as they mercilessly eliminate anyone who stands in the revolution's way.</p>
+                    </div>
+                </a>
+                <a href="Anime/AmagiBrilliantPark/Page.html" class="anime">
+                    <img src="Anime/AmagiBrilliantPark/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Amagi Brilliant Park</div>
+                        <p class="smry">Kanie Seiya, a smart and extremely narcissistic high school student, believes that the beautiful but reserved Sento Isuzu has invited him on a date at an amusement park called Amagi Brilliant Park. Much to his chagrin, not only is the location a run-down facility, the supposed date is merely a recruitment tour where Sento and Princess Latifa Fleuranza, the owner of the theme park, ask him to become the park's new manager. Their cause for desperation? As stipulated in a land-use contract, Amagi has less than three months to meet a quota of 500,000 guests, or the park will be closed for good and the land redeveloped by a greedy real-estate company.</p>
+                    </div>
+                </a>
+                <a href="Anime/AncientMagusBride/Page.html" class="anime">
+                    <img src="Anime/AncientMagusBride/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Ancient Magus' Bride</div>
+                        <p class="smry">Chise Hatori, a 15-year-old Japanese girl, was sold for five million pounds at an auction to a tall masked gentleman. Abandoned at a young age and ridiculed by her peers for her unconventional behavior, she was ready to give herself to any buyer if it meant having a place to go home to. In chains and on her way to an unknown fate, she hears whispers from robed men along her path, gossiping and complaining that such a buyer got his hands on a rare "Sleigh Beggy."</p>
+                    </div>
+                </a>
+                <a href="Anime/AngelBeats/Page.html" class="anime">
+                    <img src="Anime/AngelBeats/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Angel Beats!</div>
+                        <p class="smry">Otonashi awakens only to learn he is dead. A rifle-toting girl named Yuri explains that they are in the afterlife, and Otonashi realizes the only thing he can remember about himself is his name. Yuri tells him that she leads the Shinda Sekai Sensen (Afterlife Battlefront) and wages war against a girl named Tenshi. Unable to believe Yuri's claims that Tenshi is evil, Otonashi attempts to speak with her, but the encounter doesn't go as he intended.</p>
+                    </div>
+                </a>
+                <a href="Anime/AnoHana/Page.html" class="anime">
+                    <img src="Anime/AnoHana/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">AnoHana</div>
+                        <p class="smry">Jinta Yadomi is peacefully living as a recluse, spending his days away from school and playing video games at home instead. One hot summer day, his childhood friend, Meiko "Menma" Honma, appears and pesters him to grant a forgotten wish. He pays her no mind, which annoys her, but he doesn't really care. After all, Menma already died years ago.</p>
+                    </div>
+                </a>
+                <a href="Anime/APlaceFurtherThanTheUniverse/Page.html" class="anime">
+                    <img src="Anime/APlaceFurtherThanTheUniverse/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">A Place Further than the Universe</div>
+                        <p class="smry">Filled with an overwhelming sense of wonder for the world around her, Mari Tamaki has always dreamt of what lies beyond the reaches of the universe. However, despite harboring such large aspirations on the inside, her fear of the unknown and anxiety over her own possible limitations have always held her back from chasing them. But now, in her second year of high school, Mari is more determined than ever to not let any more of her youth go to waste. Still, her fear continues to prevent her from taking that ambitious step forward—that is, until she has a chance encounter with a girl who has grand dreams of her own.</p>
+                    </div>
+                </a>
+                <a href="Anime/Charlotte/Page.html" class="anime">
+                    <img src="Anime/Charlotte/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Charlotte</div>
+                        <p class="smry">When the enigmatic Nao Tomori catches Yuu using his power, she coerces him and his sister Ayumi into transferring to Hoshinoumi Academy, a school for students with supernatural abilities. The student council of the school, led by Nao, is tasked with secretly tracking down adolescents who abuse their powers. Yuu is forced to join the student council and together, they face formidable challenges that bring him closer to the shocking truth that his own, seemingly incomplete ability, might be more powerful than he could have ever imagined.</p>
+                    </div>
+                </a>
+                <a href="Anime/DarlingInTheFranXX/Page.html" class="anime">
+                    <img src="Anime/DarlingInTheFranXX/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Darling In The FranXX</div>
+                        <p class="smry">The story is set in the distant future. The land is ruined, and humanity establishes the mobile fort city Plantation. Pilots produced inside Plantation live in Mistilteinn, also know as the "birdcage." Children live there knowing nothing of the outside world or the freedom of the sky. Their lives consist of battling to carry out missions. Their enemies are mysterious giant lifeforms known as Kyouryuu, and the children pilot robots called Franxx to face off against them. For the children, riding the Franxx proves their existence.</p>
+                    </div>
+                </a>
+                <a href="Anime/DeathMarchToTheParallelWorldRhapsody/Page.html" class="anime">
+                    <img src="Anime/DeathMarchToTheParallelWorldRhapsody/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Death March To The Parallel World Rhapsody</div>
+                        <p class="smry">29-year-old programmer Suzuki Ichirou finds himself transported into a fantasy RPG. Within the game, he's a 15-year-old named Satou. At first he thinks he's dreaming, but his experiences seem very real. Due to a powerful ability he possesses with limited use, he ends up wiping out an army of lizard men and becomes a high leveled adventurer. Satou decides to hide his level, and plans to live peacefully and meet new people. However, developments in the game's story, such as the return of a demon king, may cause a nuisance to Satou's plans.</p>
+                    </div>
+                </a>
+                <a href="Anime/DeathParade/Page.html" class="anime">
+                    <img src="Anime/DeathParade/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Death Parade</div>
+                        <p class="smry">After death, there is no heaven or hell, only a bar that stands between reincarnation and oblivion. There the attendant will, one after another, challenge pairs of the recently deceased to a random game in which their fate of either ascending into reincarnation or falling into the void will be wagered. Whether it's bowling, darts, air hockey, or anything in between, each person's true nature will be revealed in a ghastly parade of death and memories, dancing to the whims of the bar's master. Welcome to Quindecim, where Decim, arbiter of the afterlife, awaits!</p>
+                    </div>
+                </a>
+                <a href="Anime/DomesticGirlfriend/Page.html" class="anime">
+                    <img src="Anime/DomesticGirlfriend/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Domestic Girlfriend</div>
+                        <p class="smry">Natsuo Fujii is in love with his teacher, Hina. Attempting to forget his feelings towards her, Natsuo goes to a mixer with his classmates where he meets an odd girl named Rui Tachibana. In a strange turn of events, Rui asks Natsuo to sneak out with her and do her a favor. To his surprise, their destination is Rui's house—and her request is for him to have sex with her. There's no love behind the act; she just wants to learn from the experience. Thinking that it might help him forget about Hina, Natsuo hesitantly agrees.</p>
+                    </div>
+                </a>
+                <a href="Anime/Dororo2019/Page.html" class="anime">
+                    <img src="Anime/Dororo2019/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Dororo (2019)</div>
+                        <p class="smry">A samurai lord has bartered away his newborn son's organs to forty-eight demons in exchange for dominance on the battlefield. Yet, the abandoned infant survives thanks to a medicine man who equips him with primitive prosthetics—lethal ones with which the wronged son will use to hunt down the multitude of demons to reclaim his body one piece at a time, before confronting his father. On his journeys the young hero encounters an orphan who claims to be the greatest thief in Japan. </p>
+                    </div>
+                </a>
+                <a href="Anime/Fireworks/Page.html" class="anime">
+                    <img src="Anime/Fireworks/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Fireworks</div>
+                        <p class="smry">It's summer, and Norimichi Shimada and his friends want to know if fireworks look round or flat from the side. They forge a plan to find the answer at Moshimo Festival's fireworks display. However, Norimichi finds himself conflicted when his classmate, Nazuna Oikawa, plans to run away from home and wants Norimichi to join her. When things go awry in their attempt to escape, a strange orb in Nazuna's possession gives them another chance at staying together.</p>
+                    </div>
+                </a>
+                <a href="Anime/FoodWars1/Page.html" class="anime">
+                    <img src="Anime/FoodWars1/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Food Wars! The First Plate</div>
+                        <p class="smry">Ever since he was a child, fifteen-year-old Souma Yukihira has helped his father by working as the sous chef in the restaurant his father runs and owns. Throughout the years, Souma developed a passion for entertaining his customers with his creative, skilled, and daring culinary creations. His dream is to someday own his family's restaurant as its head chef.</p>
+                    </div>
+                </a>
+                <a href="Anime/FoodWars2/Page.html" class="anime">
+                    <img src="Anime/FoodWars2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Food Wars! The Second Plate</div>
+                        <p class="smry">The qualifiers of the Autumn Elections are now over, and only eight talented chefs remain. Now, they face off in one-on-one food wars, each with their own unique themes. Met with both new judges and new opponents all with their own specialties, Souma must stay on his toes if he hopes to make it to the top of both the Autumn Elections and Tootsuki Culinary Academy.</p>
+                    </div>
+                </a>
+                <a href="Anime/FoodWars3/Page.html" class="anime">
+                    <img src="Anime/FoodWars3/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Food Wars! The Third Plate</div>
+                        <p class="smry">The third season of Food Wars!.</p>
+                    </div>
+                </a>
+                <a href="Anime/FoodWars3.2/Page.html" class="anime">
+                    <img src="Anime/FoodWars3.2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Food Wars! The Third Plate 2nd Cour</div>
+                        <p class="smry">The second course of Food Wars! season 3.</p>
+                    </div>
+                </a>
+                <a href="Anime/GATE/Page.html" class="anime">
+                    <img src="Anime/GATE/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">GATE</div>
+                        <p class="smry">Off-duty Japan Self-Defense Forces (JSDF) officer and otaku, Youji Itami, is on his way to attend a doujin convention in Ginza, Tokyo when a mysterious portal in the shape of a large gate suddenly appears. From this gate, supernatural creatures and warriors clad in medieval armor emerge, charging through the city, killing and destroying everything in their path. With swift actions, Youji saves as many lives as he can while the rest of the JSDF direct their efforts towards stopping the invasion.</p>
+                    </div>
+                </a>
+                <a href="Anime/GoblinSlayer/Page.html" class="anime">
+                    <img src="Anime/GoblinSlayer/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Goblin Slayer</div>
+                        <p class="smry">A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress. It's the Goblin Slayer who comes to their rescue—a man who's dedicated his life to the extermination of all goblins, by any means necessary. And when rumors of his feats begin to circulate, there's no telling who might come calling next...</p>
+                    </div>
+                </a>
+                <a href="Anime/IWantToEatYourPancreas/Page.html" class="anime">
+                    <img src="Anime/IWantToEatYourPancreas/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">I Want To Eat Your Pancreas</div>
+                        <p class="smry">Spring time in April and the last of the cherry blossoms are still in bloom. The usually aloof bookworm with no interest in others comes across a book in a hospital waiting room. Handwritten on the cover are the words: "Living with Dying." He soon discovers that it is a diary kept by his very popular and genuinely cheerful classmate, Sakura Yamauchi, who reveals to him that she is secretly suffering from a pancreatic illness and only has a limited time left. It is at this moment that she gains just one more person to share her secret.</p>
+                    </div>
+                </a>
+                <a href="Anime/LoveIsWar/Page.html" class="anime">
+                    <img src="Anime/LoveIsWar/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Kaguya-sama: Love Is War</div>
+                        <p class="smry">At the renowned Shuchiin Academy, Miyuki Shirogane and Kaguya Shinomiya are the student body's top representatives. Ranked the top student in the nation and respected by peers and mentors alike, Miyuki serves as the student council president. Alongside him, the vice president Kaguya—eldest daughter of the wealthy Shinomiya family—excels in every field imaginable. They are the envy of the entire student body, regarded as the perfect couple.</p>
+                    </div>
+                </a>
+                <a href="Anime/Kiznaiver/Page.html" class="anime">
+                    <img src="Anime/Kiznaiver/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Kiznaiver</div>
+                        <p class="smry">Katsuhira Agata is a quiet and reserved teenage boy whose sense of pain has all but vanished. His friend, Chidori Takashiro, can only faintly remember the days before Katsuhira had undergone this profound change. Now, his muffled and complacent demeanor make Katsuhira a constant target for bullies, who exploit him for egregious sums of money. But their fists only just manage to make him blink, as even emotions are far from his grasp.</p>
+                    </div>
+                </a>
+                <a href="Anime/Maquia/Page.html" class="anime">
+                    <img src="Anime/Maquia/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Maquia: When the Promised Flower Blooms</div>
+                        <p class="smry">The people of Iorph live far away from the lands of men, weaving the happenings of each day into a fabric called Hibiol. They live for centuries while maintaining their youthful appearance. Maquia, an orphaned Iorph girl, lives in an oasis surrounded by friends, yet somehow feels alone. But the tranquil lives of the Iorph are shattered in an instant when the Mezarte army invades their territory on a dragon fleet, seeking the blood that grants the Iorph long life.</p>
+                    </div>
+                </a>
+                <a href="Anime/MobPsycho/Page.html" class="anime">
+                    <img src="Anime/MobPsycho/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Mob Psycho 100</div>
+                        <p class="smry">Kageyama Shigeo (a.k.a. "Mob") is a 8th grader with psychic abilities. He could bend spoons and lift objects with his mind from a young age, but he slowly began to withhold from using his abilities in public due to the negative attention he kept receiving. Now, the only thing he wants is to become friends with a girl in his class, Tsubomi. With his psychic "mentor" (who has no psychic powers), he continues his daily life, attempting to realize his purpose in life. </p>
+                    </div>
+                </a>
+                <a href="Anime/MobPsycho2/Page.html" class="anime">
+                    <img src="Anime/MobPsycho2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Mob Psycho 100 II</div>
+                        <p class="smry">Second Season of ONE's Mob Psycho 100.</p>
+                    </div>
+                </a>
+                <a href="Anime/NoGameNoLife/Page.html" class="anime">
+                    <img src="Anime/NoGameNoLife/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">No Game No Life</div>
+                        <p class="smry">No Game No Life is a surreal comedy that follows Sora and Shiro, shut-in NEET siblings and the online gamer duo behind the legendary username "Kuuhaku." They view the real world as just another lousy game; however, a strange e-mail challenging them to a chess match changes everything—the brother and sister are plunged into an otherworldly realm where they meet Tet, the God of Games.</p>
+                    </div>
+                </a>
+                <a href="Anime/NoGameNoLifeMovieZero/Page.html" class="anime">
+                    <img src="Anime/NoGameNoLifeMovieZero/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">No Game No Life Movie: Zero</div>
+                        <p class="smry">Six thousand years before Sora and Shiro were even a blink in the history of Disboard, war consumed the land, tearing apart the heavens, destroying stars, and even threatening to wipe out the human race. Amid the chaos and destruction, a young man named Riku leads humanity toward the tomorrow his heart believed in. One day, in the ruins of an Elf city, he meets Shuvi, a female exiled "Ex-machina" android who asks him to teach her what it means to have a human heart.</p>
+                    </div>
+                </a>
+                <a href="Anime/Noragami/Page.html" class="anime">
+                    <img src="Anime/Noragami/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Noragami</div>
+                        <p class="smry">Yato is a minor deity and a self-proclaimed "Delivery God," who dreams of having millions of worshippers. Without a single shrine dedicated to his name, however, his goals are far from being realized. He spends his days doing odd jobs for five yen apiece, until his weapon partner becomes fed up with her useless master and deserts him.</p>
+                    </div>
+                </a>
+                <a href="Anime/PlasticMemories/Page.html" class="anime">
+                    <img src="Anime/PlasticMemories/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Plastic Memories</div>
+                        <p class="smry">Eighteen-year-old Tsukasa Mizugaki has failed his college entrance exams, but after pulling some strings, he manages to land a job at the Sion Artificial Intelligence Corporation. SAI Corp is responsible for the creation of "Giftias"—highly advanced androids which are almost indiscernible from normal humans. However, unlike humans, Giftias have a maximum lifespan of 81,920 hours, or around nine years and four months. Terminal Service One, the station Tsukasa was assigned to, is responsible for collecting Giftias that have met their expiration date, before they lose their memories and become hostile.</p>
+                    </div>
+                </a>
+                <a href="Anime/QuntessentialQuintuplets/Page.html" class="anime">
+                    <img src="Anime/QuntessentialQuintuplets/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Quntessential Quintuplets</div>
+                        <p class="smry">Five girls who want to do anything but study, and their tutor: a high school boy who's got book smarts and not much else. Fuutarou Uesugi took the tutoring gig because he was desperate for cash, but when his students—the five beautiful daughters of a wealthy businessman—find five times the excuses to slack off, what can he do?! At this rate, the sisters won’t graduate, so if he wants to get paid, Fuutarou must think of a plan to suit each of them… Which feels hopeless when five out of five of them think he's a loser!</p>
+                    </div>
+                </a>
+                <a href="Anime/RascalDoesNotDreamOfBunnyGirlSenpai/Page.html" class="anime">
+                    <img src="Anime/RascalDoesNotDreamOfBunnyGirlSenpai/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Rascal Does Not Dream Of Bunny Girl Senpai</div>
+                        <p class="smry">This year, Sakuta Azusagawa, a second-year student at a high school near Enoshima, meets several girls that are experiencing this "puberty syndrome." For instance, he meets a wild bunny girl in the library. She turns out to be an actress on hiatus, Mai Sakurajima, who is also his senior at the school. For some reason, no one else can see this enchanting girl. How did she become invisible...? As Sakuta searches for answers to help Mai, they spend more time together, and he eventually learns of her hidden feelings...</p>
+                    </div>
+                </a>
+                <a href="Anime/ReZERO/Page.html" class="anime">
+                    <img src="Anime/ReZERO/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Re:ZERO - Starting Life in Another World</div>
+                        <p class="smry">When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things aren't looking good for the bewildered teenager, however: not long after his arrival, he is attacked by some thugs; armed with only a bag of groceries and a now useless cell phone, he is quickly beaten to a pulp. Fortunately, a mysterious beauty named Satella, in hot pursuit after the one who stole her insignia, happens upon Subaru and saves him. In order to thank the honest and kindhearted girl, Subaru offers to help in her search, and later that night, he even finds the whereabouts of that which she seeks. But unbeknownst to them, a much darker force stalks the pair from the shadows, and just minutes after locating the insignia, Subaru and Satella are brutally murdered.</p>
+                    </div>
+                </a>
+                <a href="Anime/ScumsWish/Page.html" class="anime">
+                    <img src="Anime/ScumsWish/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Scum's Wish</div>
+                        <p class="smry">Hanabi has loved her childhood friend and neighbor Narumi Kanai for as long as she can remember, so she is elated to discover that he is her new homeroom teacher. However, Narumi is soon noticed by the music teacher, Akane Minagawa, and a relationship begins to blossom between them, much to Hanabi's dismay. </p>
+                    </div>
+                </a>
+                <a href="Anime/SwordArtOnline/Page.html" class="anime">
+                    <img src="Anime/SwordArtOnline/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online</div>
+                        <p class="smry">Kazuto Kirigaya, nicknamed "Kirito," is among the lucky few enthusiasts who get their hands on the first shipment of the game. He logs in to find himself, with ten-thousand others, in the scenic and elaborate world of Aincrad, one full of fantastic medieval weapons and gruesome monsters. However, in a cruel turn of events, the players soon realize they cannot log out; the game's creator has trapped them in his new world until they complete all one hundred levels of the game.</p>
+                    </div>
+                </a>
+                <a href="Anime/SwordArtOnline2/Page.html" class="anime">
+                    <img src="Anime/SwordArtOnline2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online II</div>
+                        <p class="smry">Kirito wanders in an unfamiliar world in order to gain any clues about the "Death Gun." Then, a female sniper named Sinon who owns a gigantic "Hecate II" rifle extends Kirito a helping hand. With Sinon's help, Kirito decides to enter the "Bullet of Bullets," a large tournament to choose the most powerful gunner within the realm of GGO, in hopes to become the target of the "Death Gun" and make direct contact with the mysterious avatar.</p>
+                    </div>
+                </a>
+                <a href="Anime/SwordArtOnline3/Page.html" class="anime">
+                    <img src="Anime/SwordArtOnline3/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online III</div>
+                        <p class="smry">"Where...am I...?" Before he knows it, Kirito has made a full-dive into an epic, fantasy-like virtual world. With only a murky recollection of what happened right before he logged in, he starts to wander around, searching for clues.</p>
+                        <p class="smry">He comes upon an enormous, pitch dark tree (the Gigas Cedar), where he encounters a boy. "My name is Eugeo. Nice to meet you, Kirito." Although he is supposedly a resident of the virtual world – an NPC – the boy shows the same array of emotions as any human being.</p>
+                    </div>
+                </a>
+                <a href="Anime/SwordArtOnlineMovie/Page.html" class="anime">
+                    <img src="Anime/SwordArtOnlineMovie/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Sword Art Online Movie: Ordinal Scale</div>
+                        <p class="smry">In 2026, four years after the infamous Sword Art Online incident, a revolutionary new form of technology has emerged: the Augma, a device that utilizes an Augmented Reality system. Unlike the Virtual Reality of the NerveGear and the Amusphere, it is perfectly safe and allows players to use it while they are conscious, creating an instant hit on the market. The most popular application for the Augma is the game Ordinal Scale, which immerses players in a fantasy role-playing game with player rankings and rewards.</p>
+                    </div>
+                </a>
+                <a href="Anime/ThatTimeIGotReincarnatedAsASlime/Page.html" class="anime">
+                    <img src="Anime/ThatTimeIGotReincarnatedAsASlime/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">That Time I Got Reincarnated As A Slime</div>
+                        <p class="smry">When Satoru regains consciousness, he discovers that he has reincarnated as a goop of slime in an unfamiliar realm. In doing so, he acquires newfound skills—notably, the power to devour anything and mimic its appearance and abilities. He then stumbles upon the sealed Catastrophe-level monster "Storm Dragon" Verudora who had been sealed away for the past 300 years for devastating a town to ashes. Sympathetic to his predicament, Satoru befriends him, promising to assist in destroying the seal. In return, Verudora bestows upon him the name Rimuru Tempest to grant him divine protection. </p>
+                    </div>
+                </a>
+                <a href="Anime/ThePromisedNeverland/Page.html" class="anime">
+                    <img src="Anime/ThePromisedNeverland/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">The Promised Neverland</div>
+                        <p class="smry">Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their "Mama," Isabella. Although they are required to take tests daily, the children are free to spend their time as they see fit, usually playing outside, as long as they do not venture too far from the orphanage—a rule they are expected to follow no matter what. However, all good times must come to an end, as every few months, a child is adopted and sent to live with their new family... never to be heard from again.</p>
+                    </div>
+                </a>
+                <a href="Anime/TheRisingOfTheShieldHero/Page.html" class="anime">
+                    <img src="Anime/TheRisingOfTheShieldHero/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">The Rising Of The Shield Hero</div>
+                        <p class="smry">Stories of old tell of four otherworldly heroes—wielding the sword, spear, bow, and shield—who defended the land from wave after wave of calamity. With the fate of the world in balance, the kingdom of Melromarc summons these legendary figures; in modern-day Japan, the call is answered, and the unwitting heroes are transported to this fantasy universe.</p>
+                        <p class="smry">Thrust into Melromarc and given the title of "Shield Hero," otaku Naofumi Iwatani is labeled the weakest due to his lack of offensive capability and apparent inexperience. When the heroes part ways to start their journeys, he only has one willing companion: the beautiful princess Malty Melromarc. However, she soon betrays him, steals all his money, and accuses him of taking advantage of her.</p>
+                    </div>
+                </a>
+                <a href="Anime/TheSevenDeadlySins/Page.html" class="anime">
+                    <img src="Anime/TheSevenDeadlySins/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">The Seven Deadly Sins</div>
+                        <p class="smry">You, will you be a worshipper of the devil lords? These beautiful lords lead humans to the seven deadly sins: pride, envy, wrath, sloth, greed, gluttony, and lust. A revealing fantasy that craves to corrupt and steal true happiness starts now.</p>
+                    </div>
+                </a>
+                <a href="Anime/TokyoGhoul/Page.html" class="anime">
+                    <img src="Anime/TokyoGhoul/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Tokyo Ghoul</div>
+                        <p class="smry">Based on the best-selling supernatural horror manga by Sui Ishida, Tokyo Ghoul follows Ken Kaneki, a shy, bookish college student, who is instantly drawn to Rize Kamishiro, an avid reader like himself. However, Rize is not exactly who she seems, and this unfortunate meeting pushes Kaneki into the dark depths of the ghouls' inhuman world. In a twist of fate, Kaneki is saved by the enigmatic waitress Touka Kirishima, and thus begins his new, secret life as a half-ghoul/half-human who must find a way to integrate into both societies.</p>
+                    </div>
+                </a>
+                <a href="Anime/TokyoGhoul2/Page.html" class="anime">
+                    <img src="Anime/TokyoGhoul2/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Tokyo Ghoul Root A</div>
+                        <p class="smry">In modern day Tokyo, society lives in fear of Ghouls: mysterious creatures who look exactly like humans—yet hunger insatiably for their flesh. None of this matters to Ken Kaneki, a bookish and ordinary young man, until a dark and violent encounter turns him into the first ever Ghoul-human half breed. Trapped between two worlds, Ken must survive the violent conflicts of warring Ghoul factions, while attempting to learn more about Ghoul society, his newfound powers, and the fine line between man and monster.</p>
+                    </div>
+                </a>
+                <a href="Anime/TokyoGhoul3/Page.html" class="anime">
+                    <img src="Anime/TokyoGhoul3/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Tokyo Ghoul :re</div>
+                        <p class="smry">The creation of a special team, known as the Quinx Squad, may provide the CCG with the push they need to exterminate Tokyo's unwanted residents. As humans who have undergone surgery in order to make use of the special abilities of ghouls, they participate in operations to eradicate the dangerous creatures. The leader of this group, Haise Sasaki, is a half-ghoul, half-human who has been trained by famed special class investigator, Kishou Arima. However, there's more to this young man than meets the eye, as unknown memories claw at his mind, slowly reminding him of the person he used to be.</p>
+                    </div>
+                </a>
+                <a href="Anime/TokyoGhoul4/Page.html" class="anime">
+                    <img src="Anime/TokyoGhoul4/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Tokyo Ghoul :re 2</div>
+                        <p class="smry">Second season of Tokyo Ghoul :re.</p>
+                    </div>
+                </a>
+                <a href="Anime/TwinStarExorcists/Page.html" class="anime">
+                    <img src="Anime/TwinStarExorcists/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Twin Star Exorcists</div>
+                        <p class="smry">Magano, a parallel realm filled with monsters known as "Kegare," is a place where exorcists deal with all impurities. Benio Adashino is a prodigy exorcist who is recognized for her strength and is summoned to Tokyo by the Exorcist Union. On her way, she plummets into the arms of Rokuro Enmadou, a young exorcist with a troubled past.</p>
+                    </div>
+                </a>
+                <a href="Anime/VioletEvergarden/Page.html" class="anime">
+                    <img src="Anime/VioletEvergarden/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Violet Evergarden</div>
+                        <p class="smry">The Great War finally came to an end after four long years of conflict; fractured in two, the continent of Telesis slowly began to flourish once again. Caught up in the bloodshed was Violet Evergarden, a young girl raised for the sole purpose of decimating enemy lines. Hospitalized and maimed in a bloody skirmish during the War's final leg, she was left with only words from the person she held dearest, but with no understanding of their meaning.</p>
+                    </div>
+                </a>
+                <a href="Anime/YourLieInApril/Page.html" class="anime">
+                    <img src="Anime/YourLieInApril/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Your Lie In April</div>
+                        <p class="smry">Two years later, Kousei still avoids the piano, leaving behind his admirers and rivals, and lives a colorless life alongside his friends Tsubaki Sawabe and Ryouta Watari. However, everything changes when he meets a beautiful violinist, Kaori Miyazono, who stirs up his world and sets him on a journey to face music again.</p>
+                    </div>
+                </a>
+                <a href="Anime/YourName/Page.html" class="anime">
+                    <img src="Anime/YourName/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Your Name</div>
+                        <p class="smry">One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.</p>
+                    </div>
+                </a>
+                <a href="Anime/ZombielandSaga/Page.html" class="anime">
+                    <img src="Anime/ZombielandSaga/Gallery/cover.png" style="width:100%; height: 300px;">
+                    <div class="ovr">
+                        <div class="ttl">Zombieland Saga</div>
+                        <p class="smry">A typical morning. The usual music. Their normal lives. The peace these seven girls experience will suddenly be destroyed. By the living dead... zombies. A reality that they never wanted a part of, an amazing and terrifying zombie world. They all share one wish: "We want to live." These girls will struggle through this saga, in order to achieve a miracle.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!--|||||-->
+
+        <div class="footer">
+            <div class="flogo">
+                <b style="color:rgb(0, 240, 230)">HANIME</b>
+                <b style="color:rgb(0, 170, 250)">HAVEN</b>
+                <br/>
+                <p style="color:rgb(255, 255, 255)">AN ANIME STREAMING SITE</p>
+                <p style="color:rgb(255, 255, 255); font-size: 15px;">©HHStudio2019</p>
+            </div>
+                
+            <ul class="fcontact">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../__/Logos/fb.png"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="../__/Logos/twitter.png"></a></li>
+                <li><a href="https://www.discordapp.com" target="_blank"><img src="../__/Logos/disc.png"></a></li>
+            </ul>
+    
+            <ul class="finfo">
+                <li><a href="About.html">About Us</a></li>
+                <li>|</li>
+                <li><a href="https://www.patreon.com/" target="_blank">Support Us</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
